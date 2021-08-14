@@ -24,3 +24,4 @@ jobs:
         server: ftp.elendig.no
         username: hriis@elendig.no
         password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./build/
