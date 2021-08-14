@@ -1,0 +1,6 @@
+body {
+  background:#111 url('static/background-image.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
