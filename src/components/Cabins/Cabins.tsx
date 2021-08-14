@@ -1,7 +1,13 @@
 import React from "react";
 
 function Cabins() {
-  return (<div></div>);
+  return (
+    <div>
+      <p>
+        Hehe
+      </p>
+    </div>
+  );
 }
 
 export default Cabins;

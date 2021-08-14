@@ -1,24 +1,24 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Header from "./components/header/header";
-import About from "./components/about/about";
-import Contact from "./components/contact/contact";
-import Cabins from "./components/cabins/cabins";
+import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Cabins from "./components/Cabins/Cabins";
 
 function App() {
   return (
     <div>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <About />
           </Route>
-          <Route path='/kontakt'>
+          <Route exact path='/kontakt'>
             <Contact />
           </Route>
-          <Route path ='/hytter'>
+          <Route exact path ='/hytter'>
             <Cabins />
           </Route>
         </Switch>
